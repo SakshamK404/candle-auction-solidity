@@ -18,13 +18,13 @@ The Candle Auction smart contract allows participants to place bids during the a
 ## Project Structure
 CandleAuction/
 ├── contracts/
-│ ├── CandleAuction.sol
-│ └── Migrations.sol
+│   ├── CandleAuction.sol
+│   └── Migrations.sol
 ├── migrations/
-│ ├── 1_initial_migration.js
-│ └── 2_deploy_contracts.js
+│   ├── 1_initial_migration.js
+│   └── 2_deploy_contracts.js
 ├── test/
-│ └── testCandleAuction.js
+│   └── testCandleAuction.js
 ├── truffle-config.js
 ├── package.json
 └── README.md
