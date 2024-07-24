@@ -15,19 +15,7 @@ This project implements a Solidity smart contract for a candle auction using Tru
 
 The Candle Auction smart contract allows participants to place bids during the auction period. The highest bidder at the end of the auction wins and can withdraw the highest bid amount, while other participants can withdraw their bids if they were outbid.
 
-## Project Structure
-CandleAuction/
-├── contracts/
-│   ├── CandleAuction.sol
-│   └── Migrations.sol
-├── migrations/
-│   ├── 1_initial_migration.js
-│   └── 2_deploy_contracts.js
-├── test/
-│   └── testCandleAuction.js
-├── truffle-config.js
-├── package.json
-└── README.md
+
 
 
 ## Setup and Installation
@@ -59,13 +47,13 @@ CandleAuction/
 
 ## Deployment
 
-1. **Start Ganache CLI:**
+1. **Start Ganache CLI(in first terminal):**
 
     ```sh
     ganache-cli
     ```
 
-2. **Compile the contracts:**
+2. **Compile the contracts(in second terminal):**
 
     ```sh
     truffle compile
